@@ -64,6 +64,11 @@ $session->isAdmin();
                         <div class="card-body">
                             <h5 class="card-title mb-3 text-center">Dashboard</h5>
 
+                            <div class="d-flex flex-row bd-highlight mb-3 justify-content-center">
+                                <a class="p-2 mx-1 btn btn-warning" href="./user_list.php">User List</a>                                
+                                <a class="p-2 mx-1 btn btn-warning" href="./register.php">User Register</a>                                
+                                <a class="p-2 mx-1 btn btn-warning" href="./user_profile.php">User Profile</a>                                
+                            </div>
 
                         </div>
                     </div>
