@@ -1,6 +1,8 @@
 # php_securecode
 securecode training
 
+![enter image description here](https://raw.githubusercontent.com/mzm-dev/php_securecode/main/img.png)
+
 #database
 ```mysql
 
@@ -30,3 +32,5 @@ ALTER TABLE `user`
   ADD PRIMARY KEY (`user_id`);
 
 ```
+
+
