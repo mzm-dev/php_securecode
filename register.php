@@ -1,11 +1,14 @@
 <?php
 include('configuration.php');
+include('function.php');
 
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
 $_SESSION['token'] = $random_value;
+
+$secure = new Secure();
 
 ?>
 
